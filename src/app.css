@@ -1,0 +1,10 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #0cae5b;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 50px;
+}

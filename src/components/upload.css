@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+
+  width: 100%;
+}
+
+.file {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+
+  height: 30px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  background-color: #a67b51;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.input {
+  display: none;
+}
