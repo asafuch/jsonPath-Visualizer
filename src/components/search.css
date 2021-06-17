@@ -2,6 +2,7 @@
   background-color: #a67b51;
   max-width: 90%;
   height: 500px;
+  overflow-y:scroll;
 }
 .search-content {
   padding-left: 10px;
