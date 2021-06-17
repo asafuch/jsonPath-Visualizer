@@ -22,12 +22,7 @@ class Search extends Component {
                                 <h2>{item}</h2>
                             </div>
                         )
-                }else{
-                    //if it is not a string it will return the following message
-                    return(
-                        <h3>Make sure to type the correct JSONPath, <a type="_blank" href="https://www.npmjs.com/package/jsonpath-plus">JSONPath documentation</a></h3>
-                    )
-                }                
+                }               
             })
           return data
         }else{
